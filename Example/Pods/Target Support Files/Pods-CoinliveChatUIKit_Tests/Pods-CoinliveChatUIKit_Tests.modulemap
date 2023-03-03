@@ -1,0 +1,6 @@
+framework module Pods_CoinliveChatUIKit_Tests {
+  umbrella header "Pods-CoinliveChatUIKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

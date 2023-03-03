@@ -1,0 +1,16 @@
+PODS:
+  - CoinliveChatUIKit (0.1.0)
+
+DEPENDENCIES:
+  - CoinliveChatUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  CoinliveChatUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoinliveChatUIKit: 75e1cacecd408e563d62b172a10370372a76e096
+
+PODFILE CHECKSUM: e9d049f96792a645243536095aaa8084963c8512
+
+COCOAPODS: 1.11.3

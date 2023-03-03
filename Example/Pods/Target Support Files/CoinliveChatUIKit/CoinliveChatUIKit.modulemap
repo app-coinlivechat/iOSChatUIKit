@@ -1,0 +1,6 @@
+framework module CoinliveChatUIKit {
+  umbrella header "CoinliveChatUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
