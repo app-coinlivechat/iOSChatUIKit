@@ -20,7 +20,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Parkjonghyun93' => 'kltb930906@gmail.com' }
-  s.source           = { :git => 'https://github.com/parkjonghyun/CoinliveChatUIKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/app-coinlivechat/iOSChatUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
