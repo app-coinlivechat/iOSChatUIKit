@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CoinliveChatUIKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A UIKit in Chat solution by Coinlive'
   s.swift_version    = '5.0'
 
@@ -26,12 +26,4 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'CoinliveChatUIKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CoinliveChatUIKit' => ['CoinliveChatUIKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -12,6 +12,7 @@
 		158C15341273392B2CDB3FC7ADA30EB9 /* CoinliveChatUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D73308A58729B5E68CC991D038C874 /* CoinliveChatUIKit-dummy.m */; };
 		2065C2908B634BDB5A1ABF6D64173576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		447C419F7B4264C630C532298B2244BF /* Pods-CoinliveChatUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD57F9AB4989691ED63AD2FBCBC976E3 /* Pods-CoinliveChatUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63126F4729B6C6B900CC1B0F /* Coinlive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F4629B6C6B900CC1B0F /* Coinlive.swift */; };
 		7B4C36FB928A6F6DBECA8426D404B599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		82D741A07B76000CF1AF0140FC683263 /* Pods-CoinliveChatUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 430694940BFAE319929B75214BF6A573 /* Pods-CoinliveChatUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B672CB45ECF7ED827AA69EB293B7AF1 /* Pods-CoinliveChatUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A538712A9CF7CBE0657796C969131D9 /* Pods-CoinliveChatUIKit_Tests-dummy.m */; };
@@ -47,18 +48,19 @@
 		430694940BFAE319929B75214BF6A573 /* Pods-CoinliveChatUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoinliveChatUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		4ECECCCC8FBD7ED7EF4B78899DDC65F2 /* CoinliveChatUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoinliveChatUIKit-Info.plist"; sourceTree = "<group>"; };
 		541B948A59BF20AB2BD54EB8AB05D665 /* Pods-CoinliveChatUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoinliveChatUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		63126F4629B6C6B900CC1B0F /* Coinlive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coinlive.swift; sourceTree = "<group>"; };
 		636C87AD2D3C583943053B71C6BE8ADF /* Pods-CoinliveChatUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinliveChatUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		654D285747FB9FC131F923A650B2DC8F /* CoinliveChatUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CoinliveChatUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		654D285747FB9FC131F923A650B2DC8F /* CoinliveChatUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CoinliveChatUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6EC497561C1CD15C6174F3CD7D01972B /* CoinliveChatUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoinliveChatUIKit.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76D73308A58729B5E68CC991D038C874 /* CoinliveChatUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoinliveChatUIKit-dummy.m"; sourceTree = "<group>"; };
 		7A764821A4C471A12E224B696EEEDA04 /* CoinliveChatUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoinliveChatUIKit.debug.xcconfig; sourceTree = "<group>"; };
 		8A538712A9CF7CBE0657796C969131D9 /* Pods-CoinliveChatUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoinliveChatUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		9997DA870A0AAA5CEE448AD666E364EC /* Pods-CoinliveChatUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinliveChatUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A60325B0880F14D38A4179BFBC9AFBD6 /* Pods-CoinliveChatUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinliveChatUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B4A17E3BF9C19AF4054222B31401AD34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B8DE66BBED984CCC73521CF59935346B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B4A17E3BF9C19AF4054222B31401AD34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B8DE66BBED984CCC73521CF59935346B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BF45F0D1FFB4F9A5F45EA49D382A5BB4 /* Pods-CoinliveChatUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoinliveChatUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BF8ADE79BBBEAC5EDD0131FEA7921185 /* Pods-CoinliveChatUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoinliveChatUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C85D0F9EE74FB19445C4C0F77FEFD5BE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CoinliveChatUIKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				C85D0F9EE74FB19445C4C0F77FEFD5BE /* ReplaceMe.swift */,
 				C718571E33E117D3919B9DEDDD5ABC1D /* Pod */,
 				1A4F9AA145E5FA0C2C7179EE9E02B4E5 /* Support Files */,
+				63126F4629B6C6B900CC1B0F /* Coinlive.swift */,
 			);
 			name = CoinliveChatUIKit;
 			path = ../..;
@@ -385,6 +388,7 @@
 			files = (
 				158C15341273392B2CDB3FC7ADA30EB9 /* CoinliveChatUIKit-dummy.m in Sources */,
 				0D38AA44CC78F5BB02505EDB8E98F370 /* ReplaceMe.swift in Sources */,
+				63126F4729B6C6B900CC1B0F /* Coinlive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,8 +631,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
