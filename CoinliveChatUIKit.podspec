@@ -12,16 +12,12 @@ Pod::Spec.new do |s|
   s.summary          = 'A UIKit in Chat solution by Coinlive'
   s.swift_version    = '5.0'
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'If you consider using uikit or sdk you must receive api key from Coinlive.'
 
   s.homepage         = 'https://github.com/app-coinlivechat'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Parkjonghyun93' => 'kltb930906@gmail.com' }
   s.source           = { :git => 'https://github.com/app-coinlivechat/iOSChatUIKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
 
