@@ -8,11 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		0AFC0BA658D507ECD33B220D7FDE979E /* CoinliveChatUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C32DD29C31521AEE16EB86F42EEC41 /* CoinliveChatUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D38AA44CC78F5BB02505EDB8E98F370 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D0F9EE74FB19445C4C0F77FEFD5BE /* ReplaceMe.swift */; };
 		158C15341273392B2CDB3FC7ADA30EB9 /* CoinliveChatUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D73308A58729B5E68CC991D038C874 /* CoinliveChatUIKit-dummy.m */; };
 		2065C2908B634BDB5A1ABF6D64173576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		447C419F7B4264C630C532298B2244BF /* Pods-CoinliveChatUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD57F9AB4989691ED63AD2FBCBC976E3 /* Pods-CoinliveChatUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63126F4929B6CB3800CC1B0F /* Coinlive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F4829B6CB3800CC1B0F /* Coinlive.swift */; };
+		63126F9C29B87ED500CC1B0F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F6629B87ED500CC1B0F /* Extension.swift */; };
+		63126F9D29B87ED500CC1B0F /* CoinliveChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F6829B87ED500CC1B0F /* CoinliveChatViewModel.swift */; };
+		63126F9E29B87ED500CC1B0F /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F6A29B87ED500CC1B0F /* ImageCache.swift */; };
+		63126F9F29B87ED500CC1B0F /* NotificationSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F6C29B87ED500CC1B0F /* NotificationSettingViewController.swift */; };
+		63126FA029B87ED500CC1B0F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F6D29B87ED500CC1B0F /* AlertViewController.swift */; };
+		63126FA129B87ED500CC1B0F /* ReportAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F6E29B87ED500CC1B0F /* ReportAlertViewController.swift */; };
+		63126FA229B87ED500CC1B0F /* TranslatorBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F6F29B87ED500CC1B0F /* TranslatorBottomSheetViewController.swift */; };
+		63126FA329B87ED500CC1B0F /* TranslatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F7029B87ED500CC1B0F /* TranslatorViewController.swift */; };
+		63126FA429B87ED500CC1B0F /* CoinliveChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F7129B87ED500CC1B0F /* CoinliveChatViewController.swift */; };
+		63126FA529B87ED500CC1B0F /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F7229B87ED500CC1B0F /* TextViewController.swift */; };
+		63126FA629B87ED500CC1B0F /* EditProfileAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F7329B87ED500CC1B0F /* EditProfileAlertViewController.swift */; };
+		63126FA729B87ED500CC1B0F /* ProfileBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F7429B87ED500CC1B0F /* ProfileBottomSheetViewController.swift */; };
+		63126FA829B87ED500CC1B0F /* UserImageMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F7729B87ED500CC1B0F /* UserImageMessageCell.swift */; };
+		63126FA929B87ED500CC1B0F /* UserMultiImageMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F7829B87ED500CC1B0F /* UserMultiImageMessageCell.swift */; };
+		63126FAA29B87ED500CC1B0F /* MyImageMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F7929B87ED500CC1B0F /* MyImageMessageCell.swift */; };
+		63126FAB29B87ED500CC1B0F /* UserAssetMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F7A29B87ED500CC1B0F /* UserAssetMessageCell.swift */; };
+		63126FAC29B87ED500CC1B0F /* MyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F7B29B87ED500CC1B0F /* MyMessageCell.swift */; };
+		63126FAD29B87ED500CC1B0F /* UserMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F7C29B87ED500CC1B0F /* UserMessageCell.swift */; };
+		63126FAE29B87ED500CC1B0F /* ServerMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F7D29B87ED500CC1B0F /* ServerMessageCell.swift */; };
+		63126FAF29B87ED500CC1B0F /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F7E29B87ED500CC1B0F /* ImageCell.swift */; };
+		63126FB029B87ED500CC1B0F /* EmojiItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8029B87ED500CC1B0F /* EmojiItemView.swift */; };
+		63126FB129B87ED500CC1B0F /* NoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8129B87ED500CC1B0F /* NoticeView.swift */; };
+		63126FB229B87ED500CC1B0F /* BackBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8229B87ED500CC1B0F /* BackBarView.swift */; };
+		63126FB329B87ED500CC1B0F /* MessageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8329B87ED500CC1B0F /* MessageTableView.swift */; };
+		63126FB429B87ED500CC1B0F /* FloatChatMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8429B87ED500CC1B0F /* FloatChatMenuView.swift */; };
+		63126FB529B87ED500CC1B0F /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8529B87ED500CC1B0F /* PaddingLabel.swift */; };
+		63126FB629B87ED500CC1B0F /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8629B87ED500CC1B0F /* EmojiView.swift */; };
+		63126FB729B87ED500CC1B0F /* MessageDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8729B87ED500CC1B0F /* MessageDateView.swift */; };
+		63126FB829B87ED500CC1B0F /* AppbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8829B87ED500CC1B0F /* AppbarView.swift */; };
+		63126FB929B87ED500CC1B0F /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8929B87ED500CC1B0F /* InputView.swift */; };
+		63126FBA29B87ED500CC1B0F /* CoinliveChatViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8B29B87ED500CC1B0F /* CoinliveChatViewModelDelegate.swift */; };
+		63126FBB29B87ED500CC1B0F /* BackBarActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8C29B87ED500CC1B0F /* BackBarActionDelegate.swift */; };
+		63126FBC29B87ED500CC1B0F /* BottomSheetTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8D29B87ED500CC1B0F /* BottomSheetTransitioningDelegate.swift */; };
+		63126FBD29B87ED500CC1B0F /* NotificationSettingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8E29B87ED500CC1B0F /* NotificationSettingDelegate.swift */; };
+		63126FBE29B87ED500CC1B0F /* TranslateBottomSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F8F29B87ED500CC1B0F /* TranslateBottomSheetDelegate.swift */; };
+		63126FBF29B87ED500CC1B0F /* EditProfileDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F9029B87ED500CC1B0F /* EditProfileDelegate.swift */; };
+		63126FC029B87ED500CC1B0F /* FloatMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F9129B87ED500CC1B0F /* FloatMenuDelegate.swift */; };
+		63126FC129B87ED500CC1B0F /* ChatUserCountDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F9229B87ED500CC1B0F /* ChatUserCountDelegate.swift */; };
+		63126FC229B87ED500CC1B0F /* InputViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F9329B87ED500CC1B0F /* InputViewDelegate.swift */; };
+		63126FC329B87ED500CC1B0F /* EmojiViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F9429B87ED500CC1B0F /* EmojiViewDelegate.swift */; };
+		63126FC429B87ED500CC1B0F /* AlertActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F9529B87ED500CC1B0F /* AlertActionDelegate.swift */; };
+		63126FC529B87ED500CC1B0F /* ReportAlertActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F9629B87ED500CC1B0F /* ReportAlertActionDelegate.swift */; };
+		63126FC629B87ED500CC1B0F /* NoticeActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F9729B87ED500CC1B0F /* NoticeActionDelegate.swift */; };
+		63126FC729B87ED500CC1B0F /* AppbarActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F9829B87ED500CC1B0F /* AppbarActionDelegate.swift */; };
+		63126FC829B87ED500CC1B0F /* MessageCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F9929B87ED500CC1B0F /* MessageCellDelegate.swift */; };
+		63126FC929B87ED500CC1B0F /* MessageTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F9A29B87ED500CC1B0F /* MessageTableDelegate.swift */; };
+		63126FCA29B87ED500CC1B0F /* FailedMessageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63126F9B29B87ED500CC1B0F /* FailedMessageDelegate.swift */; };
 		7B4C36FB928A6F6DBECA8426D404B599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		82D741A07B76000CF1AF0140FC683263 /* Pods-CoinliveChatUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 430694940BFAE319929B75214BF6A573 /* Pods-CoinliveChatUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B672CB45ECF7ED827AA69EB293B7AF1 /* Pods-CoinliveChatUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A538712A9CF7CBE0657796C969131D9 /* Pods-CoinliveChatUIKit_Tests-dummy.m */; };
@@ -49,6 +95,53 @@
 		4ECECCCC8FBD7ED7EF4B78899DDC65F2 /* CoinliveChatUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoinliveChatUIKit-Info.plist"; sourceTree = "<group>"; };
 		541B948A59BF20AB2BD54EB8AB05D665 /* Pods-CoinliveChatUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoinliveChatUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		63126F4829B6CB3800CC1B0F /* Coinlive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coinlive.swift; path = CoinliveChatUIKit/Classes/Coinlive.swift; sourceTree = "<group>"; };
+		63126F6629B87ED500CC1B0F /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = CoinliveChatUIKit/Classes/Extension.swift; sourceTree = "<group>"; };
+		63126F6829B87ED500CC1B0F /* CoinliveChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinliveChatViewModel.swift; sourceTree = "<group>"; };
+		63126F6A29B87ED500CC1B0F /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		63126F6C29B87ED500CC1B0F /* NotificationSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationSettingViewController.swift; sourceTree = "<group>"; };
+		63126F6D29B87ED500CC1B0F /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		63126F6E29B87ED500CC1B0F /* ReportAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportAlertViewController.swift; sourceTree = "<group>"; };
+		63126F6F29B87ED500CC1B0F /* TranslatorBottomSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslatorBottomSheetViewController.swift; sourceTree = "<group>"; };
+		63126F7029B87ED500CC1B0F /* TranslatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslatorViewController.swift; sourceTree = "<group>"; };
+		63126F7129B87ED500CC1B0F /* CoinliveChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinliveChatViewController.swift; sourceTree = "<group>"; };
+		63126F7229B87ED500CC1B0F /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		63126F7329B87ED500CC1B0F /* EditProfileAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileAlertViewController.swift; sourceTree = "<group>"; };
+		63126F7429B87ED500CC1B0F /* ProfileBottomSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileBottomSheetViewController.swift; sourceTree = "<group>"; };
+		63126F7729B87ED500CC1B0F /* UserImageMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserImageMessageCell.swift; sourceTree = "<group>"; };
+		63126F7829B87ED500CC1B0F /* UserMultiImageMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMultiImageMessageCell.swift; sourceTree = "<group>"; };
+		63126F7929B87ED500CC1B0F /* MyImageMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyImageMessageCell.swift; sourceTree = "<group>"; };
+		63126F7A29B87ED500CC1B0F /* UserAssetMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAssetMessageCell.swift; sourceTree = "<group>"; };
+		63126F7B29B87ED500CC1B0F /* MyMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMessageCell.swift; sourceTree = "<group>"; };
+		63126F7C29B87ED500CC1B0F /* UserMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMessageCell.swift; sourceTree = "<group>"; };
+		63126F7D29B87ED500CC1B0F /* ServerMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerMessageCell.swift; sourceTree = "<group>"; };
+		63126F7E29B87ED500CC1B0F /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		63126F8029B87ED500CC1B0F /* EmojiItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiItemView.swift; sourceTree = "<group>"; };
+		63126F8129B87ED500CC1B0F /* NoticeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeView.swift; sourceTree = "<group>"; };
+		63126F8229B87ED500CC1B0F /* BackBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackBarView.swift; sourceTree = "<group>"; };
+		63126F8329B87ED500CC1B0F /* MessageTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableView.swift; sourceTree = "<group>"; };
+		63126F8429B87ED500CC1B0F /* FloatChatMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatChatMenuView.swift; sourceTree = "<group>"; };
+		63126F8529B87ED500CC1B0F /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		63126F8629B87ED500CC1B0F /* EmojiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		63126F8729B87ED500CC1B0F /* MessageDateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDateView.swift; sourceTree = "<group>"; };
+		63126F8829B87ED500CC1B0F /* AppbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppbarView.swift; sourceTree = "<group>"; };
+		63126F8929B87ED500CC1B0F /* InputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		63126F8B29B87ED500CC1B0F /* CoinliveChatViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinliveChatViewModelDelegate.swift; sourceTree = "<group>"; };
+		63126F8C29B87ED500CC1B0F /* BackBarActionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackBarActionDelegate.swift; sourceTree = "<group>"; };
+		63126F8D29B87ED500CC1B0F /* BottomSheetTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetTransitioningDelegate.swift; sourceTree = "<group>"; };
+		63126F8E29B87ED500CC1B0F /* NotificationSettingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationSettingDelegate.swift; sourceTree = "<group>"; };
+		63126F8F29B87ED500CC1B0F /* TranslateBottomSheetDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslateBottomSheetDelegate.swift; sourceTree = "<group>"; };
+		63126F9029B87ED500CC1B0F /* EditProfileDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileDelegate.swift; sourceTree = "<group>"; };
+		63126F9129B87ED500CC1B0F /* FloatMenuDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatMenuDelegate.swift; sourceTree = "<group>"; };
+		63126F9229B87ED500CC1B0F /* ChatUserCountDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatUserCountDelegate.swift; sourceTree = "<group>"; };
+		63126F9329B87ED500CC1B0F /* InputViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewDelegate.swift; sourceTree = "<group>"; };
+		63126F9429B87ED500CC1B0F /* EmojiViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiViewDelegate.swift; sourceTree = "<group>"; };
+		63126F9529B87ED500CC1B0F /* AlertActionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertActionDelegate.swift; sourceTree = "<group>"; };
+		63126F9629B87ED500CC1B0F /* ReportAlertActionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportAlertActionDelegate.swift; sourceTree = "<group>"; };
+		63126F9729B87ED500CC1B0F /* NoticeActionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeActionDelegate.swift; sourceTree = "<group>"; };
+		63126F9829B87ED500CC1B0F /* AppbarActionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppbarActionDelegate.swift; sourceTree = "<group>"; };
+		63126F9929B87ED500CC1B0F /* MessageCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCellDelegate.swift; sourceTree = "<group>"; };
+		63126F9A29B87ED500CC1B0F /* MessageTableDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableDelegate.swift; sourceTree = "<group>"; };
+		63126F9B29B87ED500CC1B0F /* FailedMessageDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FailedMessageDelegate.swift; sourceTree = "<group>"; };
 		636C87AD2D3C583943053B71C6BE8ADF /* Pods-CoinliveChatUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinliveChatUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		654D285747FB9FC131F923A650B2DC8F /* CoinliveChatUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CoinliveChatUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6EC497561C1CD15C6174F3CD7D01972B /* CoinliveChatUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoinliveChatUIKit.modulemap; sourceTree = "<group>"; };
@@ -63,7 +156,6 @@
 		B8DE66BBED984CCC73521CF59935346B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BF45F0D1FFB4F9A5F45EA49D382A5BB4 /* Pods-CoinliveChatUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoinliveChatUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BF8ADE79BBBEAC5EDD0131FEA7921185 /* Pods-CoinliveChatUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoinliveChatUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C85D0F9EE74FB19445C4C0F77FEFD5BE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CoinliveChatUIKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		CD57F9AB4989691ED63AD2FBCBC976E3 /* Pods-CoinliveChatUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoinliveChatUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D3F6CCDFDA39843C02DB8E1F7DE213E1 /* Pods-CoinliveChatUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoinliveChatUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DC7E473E2214337725022DE0FCE4BAD4 /* Pods-CoinliveChatUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoinliveChatUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -120,8 +212,13 @@
 		345A6EBA7BB30C4B05AC7374FA4540E6 /* CoinliveChatUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				63126F6B29B87ED500CC1B0F /* Controller */,
+				63126F8A29B87ED500CC1B0F /* Delegate */,
+				63126F6629B87ED500CC1B0F /* Extension.swift */,
+				63126F6929B87ED500CC1B0F /* Helper */,
+				63126F7529B87ED500CC1B0F /* View */,
+				63126F6729B87ED500CC1B0F /* ViewModel */,
 				63126F4829B6CB3800CC1B0F /* Coinlive.swift */,
-				C85D0F9EE74FB19445C4C0F77FEFD5BE /* ReplaceMe.swift */,
 				C718571E33E117D3919B9DEDDD5ABC1D /* Pod */,
 				1A4F9AA145E5FA0C2C7179EE9E02B4E5 /* Support Files */,
 			);
@@ -143,6 +240,108 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		63126F6729B87ED500CC1B0F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				63126F6829B87ED500CC1B0F /* CoinliveChatViewModel.swift */,
+			);
+			name = ViewModel;
+			path = CoinliveChatUIKit/Classes/ViewModel;
+			sourceTree = "<group>";
+		};
+		63126F6929B87ED500CC1B0F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				63126F6A29B87ED500CC1B0F /* ImageCache.swift */,
+			);
+			name = Helper;
+			path = CoinliveChatUIKit/Classes/Helper;
+			sourceTree = "<group>";
+		};
+		63126F6B29B87ED500CC1B0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63126F6C29B87ED500CC1B0F /* NotificationSettingViewController.swift */,
+				63126F6D29B87ED500CC1B0F /* AlertViewController.swift */,
+				63126F6E29B87ED500CC1B0F /* ReportAlertViewController.swift */,
+				63126F6F29B87ED500CC1B0F /* TranslatorBottomSheetViewController.swift */,
+				63126F7029B87ED500CC1B0F /* TranslatorViewController.swift */,
+				63126F7129B87ED500CC1B0F /* CoinliveChatViewController.swift */,
+				63126F7229B87ED500CC1B0F /* TextViewController.swift */,
+				63126F7329B87ED500CC1B0F /* EditProfileAlertViewController.swift */,
+				63126F7429B87ED500CC1B0F /* ProfileBottomSheetViewController.swift */,
+			);
+			name = Controller;
+			path = CoinliveChatUIKit/Classes/Controller;
+			sourceTree = "<group>";
+		};
+		63126F7529B87ED500CC1B0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63126F7629B87ED500CC1B0F /* Cell */,
+				63126F7F29B87ED500CC1B0F /* Base */,
+			);
+			name = View;
+			path = CoinliveChatUIKit/Classes/View;
+			sourceTree = "<group>";
+		};
+		63126F7629B87ED500CC1B0F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63126F7729B87ED500CC1B0F /* UserImageMessageCell.swift */,
+				63126F7829B87ED500CC1B0F /* UserMultiImageMessageCell.swift */,
+				63126F7929B87ED500CC1B0F /* MyImageMessageCell.swift */,
+				63126F7A29B87ED500CC1B0F /* UserAssetMessageCell.swift */,
+				63126F7B29B87ED500CC1B0F /* MyMessageCell.swift */,
+				63126F7C29B87ED500CC1B0F /* UserMessageCell.swift */,
+				63126F7D29B87ED500CC1B0F /* ServerMessageCell.swift */,
+				63126F7E29B87ED500CC1B0F /* ImageCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		63126F7F29B87ED500CC1B0F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				63126F8029B87ED500CC1B0F /* EmojiItemView.swift */,
+				63126F8129B87ED500CC1B0F /* NoticeView.swift */,
+				63126F8229B87ED500CC1B0F /* BackBarView.swift */,
+				63126F8329B87ED500CC1B0F /* MessageTableView.swift */,
+				63126F8429B87ED500CC1B0F /* FloatChatMenuView.swift */,
+				63126F8529B87ED500CC1B0F /* PaddingLabel.swift */,
+				63126F8629B87ED500CC1B0F /* EmojiView.swift */,
+				63126F8729B87ED500CC1B0F /* MessageDateView.swift */,
+				63126F8829B87ED500CC1B0F /* AppbarView.swift */,
+				63126F8929B87ED500CC1B0F /* InputView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		63126F8A29B87ED500CC1B0F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				63126F8B29B87ED500CC1B0F /* CoinliveChatViewModelDelegate.swift */,
+				63126F8C29B87ED500CC1B0F /* BackBarActionDelegate.swift */,
+				63126F8D29B87ED500CC1B0F /* BottomSheetTransitioningDelegate.swift */,
+				63126F8E29B87ED500CC1B0F /* NotificationSettingDelegate.swift */,
+				63126F8F29B87ED500CC1B0F /* TranslateBottomSheetDelegate.swift */,
+				63126F9029B87ED500CC1B0F /* EditProfileDelegate.swift */,
+				63126F9129B87ED500CC1B0F /* FloatMenuDelegate.swift */,
+				63126F9229B87ED500CC1B0F /* ChatUserCountDelegate.swift */,
+				63126F9329B87ED500CC1B0F /* InputViewDelegate.swift */,
+				63126F9429B87ED500CC1B0F /* EmojiViewDelegate.swift */,
+				63126F9529B87ED500CC1B0F /* AlertActionDelegate.swift */,
+				63126F9629B87ED500CC1B0F /* ReportAlertActionDelegate.swift */,
+				63126F9729B87ED500CC1B0F /* NoticeActionDelegate.swift */,
+				63126F9829B87ED500CC1B0F /* AppbarActionDelegate.swift */,
+				63126F9929B87ED500CC1B0F /* MessageCellDelegate.swift */,
+				63126F9A29B87ED500CC1B0F /* MessageTableDelegate.swift */,
+				63126F9B29B87ED500CC1B0F /* FailedMessageDelegate.swift */,
+			);
+			name = Delegate;
+			path = CoinliveChatUIKit/Classes/Delegate;
 			sourceTree = "<group>";
 		};
 		70D682E4F8534E4DCC9D404BFC490881 /* Targets Support Files */ = {
@@ -386,9 +585,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63126FB129B87ED500CC1B0F /* NoticeView.swift in Sources */,
+				63126F9F29B87ED500CC1B0F /* NotificationSettingViewController.swift in Sources */,
+				63126FBC29B87ED500CC1B0F /* BottomSheetTransitioningDelegate.swift in Sources */,
+				63126FC029B87ED500CC1B0F /* FloatMenuDelegate.swift in Sources */,
+				63126FB729B87ED500CC1B0F /* MessageDateView.swift in Sources */,
+				63126FBD29B87ED500CC1B0F /* NotificationSettingDelegate.swift in Sources */,
+				63126FB829B87ED500CC1B0F /* AppbarView.swift in Sources */,
+				63126FAA29B87ED500CC1B0F /* MyImageMessageCell.swift in Sources */,
+				63126FC829B87ED500CC1B0F /* MessageCellDelegate.swift in Sources */,
+				63126FBE29B87ED500CC1B0F /* TranslateBottomSheetDelegate.swift in Sources */,
+				63126FBB29B87ED500CC1B0F /* BackBarActionDelegate.swift in Sources */,
+				63126FA029B87ED500CC1B0F /* AlertViewController.swift in Sources */,
+				63126FAB29B87ED500CC1B0F /* UserAssetMessageCell.swift in Sources */,
+				63126FC729B87ED500CC1B0F /* AppbarActionDelegate.swift in Sources */,
+				63126FCA29B87ED500CC1B0F /* FailedMessageDelegate.swift in Sources */,
+				63126F9E29B87ED500CC1B0F /* ImageCache.swift in Sources */,
+				63126F9C29B87ED500CC1B0F /* Extension.swift in Sources */,
+				63126FB229B87ED500CC1B0F /* BackBarView.swift in Sources */,
+				63126FB529B87ED500CC1B0F /* PaddingLabel.swift in Sources */,
+				63126FAE29B87ED500CC1B0F /* ServerMessageCell.swift in Sources */,
+				63126FC429B87ED500CC1B0F /* AlertActionDelegate.swift in Sources */,
+				63126FAC29B87ED500CC1B0F /* MyMessageCell.swift in Sources */,
+				63126FC329B87ED500CC1B0F /* EmojiViewDelegate.swift in Sources */,
+				63126FA329B87ED500CC1B0F /* TranslatorViewController.swift in Sources */,
+				63126FBA29B87ED500CC1B0F /* CoinliveChatViewModelDelegate.swift in Sources */,
+				63126FAD29B87ED500CC1B0F /* UserMessageCell.swift in Sources */,
 				158C15341273392B2CDB3FC7ADA30EB9 /* CoinliveChatUIKit-dummy.m in Sources */,
-				0D38AA44CC78F5BB02505EDB8E98F370 /* ReplaceMe.swift in Sources */,
+				63126FB329B87ED500CC1B0F /* MessageTableView.swift in Sources */,
+				63126FA229B87ED500CC1B0F /* TranslatorBottomSheetViewController.swift in Sources */,
+				63126FA429B87ED500CC1B0F /* CoinliveChatViewController.swift in Sources */,
+				63126FAF29B87ED500CC1B0F /* ImageCell.swift in Sources */,
+				63126FA129B87ED500CC1B0F /* ReportAlertViewController.swift in Sources */,
+				63126FB929B87ED500CC1B0F /* InputView.swift in Sources */,
 				63126F4929B6CB3800CC1B0F /* Coinlive.swift in Sources */,
+				63126FA829B87ED500CC1B0F /* UserImageMessageCell.swift in Sources */,
+				63126F9D29B87ED500CC1B0F /* CoinliveChatViewModel.swift in Sources */,
+				63126FBF29B87ED500CC1B0F /* EditProfileDelegate.swift in Sources */,
+				63126FB429B87ED500CC1B0F /* FloatChatMenuView.swift in Sources */,
+				63126FC129B87ED500CC1B0F /* ChatUserCountDelegate.swift in Sources */,
+				63126FC229B87ED500CC1B0F /* InputViewDelegate.swift in Sources */,
+				63126FA929B87ED500CC1B0F /* UserMultiImageMessageCell.swift in Sources */,
+				63126FB629B87ED500CC1B0F /* EmojiView.swift in Sources */,
+				63126FC529B87ED500CC1B0F /* ReportAlertActionDelegate.swift in Sources */,
+				63126FC629B87ED500CC1B0F /* NoticeActionDelegate.swift in Sources */,
+				63126FA529B87ED500CC1B0F /* TextViewController.swift in Sources */,
+				63126FA629B87ED500CC1B0F /* EditProfileAlertViewController.swift in Sources */,
+				63126FC929B87ED500CC1B0F /* MessageTableDelegate.swift in Sources */,
+				63126FB029B87ED500CC1B0F /* EmojiItemView.swift in Sources */,
+				63126FA729B87ED500CC1B0F /* ProfileBottomSheetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
