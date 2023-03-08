@@ -8,12 +8,6 @@
 [![License](https://img.shields.io/cocoapods/l/CoinliveChatUIKit.svg?style=flat)](https://cocoapods.org/pods/CoinliveChatUIKit)
 [![Platform](https://img.shields.io/cocoapods/p/CoinliveChatUIKit.svg?style=flat)](https://cocoapods.org/pods/CoinliveChatUIKit)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
 ## Installation
 
 CoinliveChatUIKit is available through [CocoaPods](https://cocoapods.org). To install
