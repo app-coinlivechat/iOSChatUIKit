@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  CoinliveChatUIKit
+
+  Created by Parkjonghyun on 2022/12/15.
+  
+*/
+"coinlive" = "Coinlive";
+"appbar_menu_channel_share" = "CL chat sharing";
+"appbar_menu_notification_setting" = "Notification setting";
+"appbar_menu_translation_setting" = "Language setting";
+"appbar_menu_profile_setting" = "Profile setting";
+"notification_setting_title" = "Notification setting";
+"notification_all" = "Notification setting";
+"notification_all_label" = "All";
+"notification_liquidation" = "Liquidation";
+"notification_twitter" = "Twitter";
+"notification_medium" = "Medium";
+"translation_title" = "Language setting";
+"translation_all" = "Transalation";
+"translation_result_language" = "Language options";
+"translation_result_language_ko" = "Korean";
+"translation_result_language_en" = "English";
+"translation_result_language_ch" = "中文 (简体)";
+"translation_download_comment" = "Resources downloader will be installed. \nDo you wish to download? \n(apporximate file size %dMB)";
+"notification_board_show_all" = "View all";
+"notification_board_fold" = "Fold";
+"notification_title" = "Announcement";
+"menu_copy" = "Copy";
+"menu_report" = "Report";
+"menu_block" = "Add block";
+"menu_unblock" = "Delete block";
+"menu_delete" = "Delete";
+"menu_cancel" = "Cancel";
+"message_delete_description" = "Do you wish to delete the message?";
+"message_delete_confirm" = "Delete";
+"message_report_description" = "Do you wish to report?";
+"message_report_confirm" = "Report";
+"message_block_description" = "Do you wish to block this user?";
+"message_unblock_description" = "Do you wish to unblock this user?";
+"message_block_confirm" = "Add block";
+"message_blocked_user" = "Message from blocked user";
+"report_title" = "Report";
+"report_confirm" = "Received";
+"input_chat_placeholder" = "Start Chatting!";
+"input_chat_placeholder_unknown_user" = "Please log in to Chat";
+"system_message_jump" = "Price Spike Alert";
+"system_message_drop" = "Price drop Alert";
+"system_message_twitter" = "%@ coin(%@) twitter";
+"system_message_long" = "Long liquidation (Binance Futures)";
+"system_message_short" = "Short liquidation (Binance Futures)";
+"system_message_medium" = "%@ coin(%@) medium";
+"ama_label" = "AMA";
+"input_chat_placeholder_ama" = "Chatting is not available during AMA";
+"input_chat_placeholder_block" = "Chatting will be suspended due to multiple reports";
+"new_message_image" = "Image New Message";
+"new_message_asset" = "View %@ HODL";
+"asset_message_verify_coinlive" = "This message contains HODL verified by Coinlive";
+
+"common_save" = "Save";
+"common_confirm" = "Confirm";
+"common_cancel" = "Cancel";
+"toast_copy_url" = "URL copied";
+"toast_report" = "Report is received. Thanks for your valuable opinion.";

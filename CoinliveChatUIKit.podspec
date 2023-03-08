@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'CoinliveChatUIKit/Classes/**/*'
+#  s.source_files = 'CoinliveChatUIKit/Classes/**/*'
+  s.resource_bundle = {'CoinliveChatUIKit' => ['CoinliveChatUIKit/Resources/**/*.{xcassets}']}
 
-  s.dependency 'CoinliveChatSDK'
+#  s.dependency 'CoinliveChatSDK'
 end

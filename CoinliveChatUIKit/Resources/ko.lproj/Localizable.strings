@@ -1,0 +1,65 @@
+/* 
+  Localizable.strings
+  CoinliveChatUIKit
+
+  Created by Parkjonghyun on 2022/12/15.
+  
+*/
+
+"coinlive" = "Coinlive";
+"appbar_menu_channel_share" = "채널 공유하기";
+"appbar_menu_notification_setting" = "알림 설정";
+"appbar_menu_translation_setting" = "번역 설정";
+"appbar_menu_profile_setting" = "프로필 설정";
+"notification_setting_title" = "알림 설정";
+"notification_all" = "알림 설정";
+"notification_all_label" = "전체 알림";
+"notification_liquidation" = "청산 알림";
+"notification_twitter" = "트위터 알림";
+"notification_medium" = "미디움 알림";
+"translation_title" = "번역 설정";
+"translation_all" = "번역";
+"translation_result_language" = "결과 언어";
+"translation_result_language_ko" = "한국어";
+"translation_result_language_en" = "English";
+"translation_result_language_ch" = "中文 (简体)";
+"translation_download_comment" = "번역을 위한 리소스 다운로드가 진행됩니다.\n다운로드 하시겠습니까?\n(예상 리소스 파일크기 약 %dMB)";
+"notification_board_show_all" = "전체보기";
+"notification_board_fold" = "접어두기";
+"notification_title" = "공지";
+"menu_copy" = "복사";
+"menu_report" = "신고";
+"menu_block" = "차단";
+"menu_unblock" = "차단 해제";
+"menu_delete" = "삭제";
+"menu_cancel" = "취소";
+"message_delete_description" = "메세지를 삭제하시겠습니까?";
+"message_delete_confirm" = "삭제";
+"message_report_description" = "신고 하시겠습니까?";
+"message_report_confirm" = "신고";
+"message_block_description" = "차단 하시겠습니까?";
+"message_unblock_description" = "차단해제 하시겠습니까?";
+"message_block_confirm" = "차단";
+"message_blocked_user" = "차단된 사용자의 메세지입니다";
+"report_title" = "신고";
+"report_confirm" = "접수";
+"input_chat_placeholder" = "채팅을 입력하세요";
+"input_chat_placeholder_unknown_user" = "채팅을 하려면 로그인을 해주세요";
+"system_message_jump" = "급등알림";
+"system_message_drop" = "급락알림";
+"system_message_twitter" = "%@ 코인 트위터";
+"system_message_long" = "롱 청산 BINANCE FUTURES";
+"system_message_short" = "숏 청산 BINANCE FUTURES";
+"system_message_medium" = "%@ 코인(%@) 미디움";
+"ama_label" = "AMA";
+"input_chat_placeholder_ama" = "AMA 진행 시 채팅이 불가합니다.";
+"input_chat_placeholder_block" = "다수의 신고로 채팅 사용이 제한됩니다";
+"new_message_image" = "이미지 신규 메세지";
+"new_message_asset" = "%@님이 자산을 공개했습니다.";
+"asset_message_verify_coinlive" = "Coinlive에서 자산인증을 검증한 메시지입니다.";
+
+"common_save" = "저장";
+"common_confirm" = "확인";
+"common_cancel" = "취소";
+"toast_copy_url" = "URL을 복사했습니다";
+"toast_report" = "신고가 접수되었습니다. 소중한 의견 감사합니다";
