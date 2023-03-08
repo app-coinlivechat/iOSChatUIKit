@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "icon_radiobutton_active_light.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
