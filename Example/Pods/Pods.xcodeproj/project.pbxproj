@@ -11,7 +11,6 @@
 		158C15341273392B2CDB3FC7ADA30EB9 /* CoinliveChatUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D73308A58729B5E68CC991D038C874 /* CoinliveChatUIKit-dummy.m */; };
 		2065C2908B634BDB5A1ABF6D64173576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		447C419F7B4264C630C532298B2244BF /* Pods-CoinliveChatUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD57F9AB4989691ED63AD2FBCBC976E3 /* Pods-CoinliveChatUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		631270FF29B9537900CC1B0F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63126FCE29B9537800CC1B0F /* Localizable.strings */; };
 		6312719D29B9537900CC1B0F /* CoinliveChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631270C829B9537900CC1B0F /* CoinliveChatViewModel.swift */; };
 		6312719E29B9537900CC1B0F /* Coinlive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631270C929B9537900CC1B0F /* Coinlive.swift */; };
 		6312719F29B9537900CC1B0F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 631270CA29B9537900CC1B0F /* .gitkeep */; };
@@ -61,7 +60,9 @@
 		631271CB29B9537900CC1B0F /* AppbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631270FB29B9537900CC1B0F /* AppbarView.swift */; };
 		631271CC29B9537900CC1B0F /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631270FC29B9537900CC1B0F /* InputView.swift */; };
 		631271CD29B9537900CC1B0F /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631270FE29B9537900CC1B0F /* ImageCache.swift */; };
-		631271CF29B953E800CC1B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631271CE29B953E800CC1B0F /* Assets.xcassets */; };
+		631271D829B95DA700CC1B0F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 631271D229B95DA700CC1B0F /* Localizable.strings */; };
+		631271D929B95DA700CC1B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631271D429B95DA700CC1B0F /* Assets.xcassets */; };
+		631271DA29B95DA700CC1B0F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 631271D629B95DA700CC1B0F /* Localizable.strings */; };
 		7B4C36FB928A6F6DBECA8426D404B599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		82D741A07B76000CF1AF0140FC683263 /* Pods-CoinliveChatUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 430694940BFAE319929B75214BF6A573 /* Pods-CoinliveChatUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B672CB45ECF7ED827AA69EB293B7AF1 /* Pods-CoinliveChatUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A538712A9CF7CBE0657796C969131D9 /* Pods-CoinliveChatUIKit_Tests-dummy.m */; };
@@ -97,8 +98,6 @@
 		430694940BFAE319929B75214BF6A573 /* Pods-CoinliveChatUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoinliveChatUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		4ECECCCC8FBD7ED7EF4B78899DDC65F2 /* CoinliveChatUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoinliveChatUIKit-Info.plist"; sourceTree = "<group>"; };
 		541B948A59BF20AB2BD54EB8AB05D665 /* Pods-CoinliveChatUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoinliveChatUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		63126FCF29B9537800CC1B0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		63126FD029B9537800CC1B0F /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		631270C829B9537900CC1B0F /* CoinliveChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinliveChatViewModel.swift; sourceTree = "<group>"; };
 		631270C929B9537900CC1B0F /* Coinlive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coinlive.swift; sourceTree = "<group>"; };
 		631270CA29B9537900CC1B0F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -148,7 +147,9 @@
 		631270FB29B9537900CC1B0F /* AppbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppbarView.swift; sourceTree = "<group>"; };
 		631270FC29B9537900CC1B0F /* InputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		631270FE29B9537900CC1B0F /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
-		631271CE29B953E800CC1B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		631271D329B95DA700CC1B0F /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = Localizable.strings; sourceTree = "<group>"; };
+		631271D429B95DA700CC1B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../CoinliveChatUIKit/Resource/Assets.xcassets; sourceTree = "<group>"; };
+		631271D729B95DA700CC1B0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		636C87AD2D3C583943053B71C6BE8ADF /* Pods-CoinliveChatUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinliveChatUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		654D285747FB9FC131F923A650B2DC8F /* CoinliveChatUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CoinliveChatUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6EC497561C1CD15C6174F3CD7D01972B /* CoinliveChatUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoinliveChatUIKit.modulemap; sourceTree = "<group>"; };
@@ -219,8 +220,8 @@
 		345A6EBA7BB30C4B05AC7374FA4540E6 /* CoinliveChatUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				631271D029B95B4400CC1B0F /* Resource */,
 				631270C629B9537900CC1B0F /* Classes */,
-				63126FCD29B9537800CC1B0F /* Resources */,
 				C718571E33E117D3919B9DEDDD5ABC1D /* Pod */,
 				1A4F9AA145E5FA0C2C7179EE9E02B4E5 /* Support Files */,
 			);
@@ -242,16 +243,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		63126FCD29B9537800CC1B0F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				631271CE29B953E800CC1B0F /* Assets.xcassets */,
-				63126FCE29B9537800CC1B0F /* Localizable.strings */,
-			);
-			name = Resources;
-			path = CoinliveChatUIKit/Resources;
 			sourceTree = "<group>";
 		};
 		631270C629B9537900CC1B0F /* Classes */ = {
@@ -365,6 +356,34 @@
 				631270FE29B9537900CC1B0F /* ImageCache.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		631271D029B95B4400CC1B0F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				631271D429B95DA700CC1B0F /* Assets.xcassets */,
+				631271D529B95DA700CC1B0F /* en.lproj */,
+				631271D129B95DA700CC1B0F /* ko.lproj */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		631271D129B95DA700CC1B0F /* ko.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				631271D229B95DA700CC1B0F /* Localizable.strings */,
+			);
+			name = ko.lproj;
+			path = ../CoinliveChatUIKit/Resource/ko.lproj;
+			sourceTree = "<group>";
+		};
+		631271D529B95DA700CC1B0F /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				631271D629B95DA700CC1B0F /* Localizable.strings */,
+			);
+			name = en.lproj;
+			path = ../CoinliveChatUIKit/Resource/en.lproj;
 			sourceTree = "<group>";
 		};
 		70D682E4F8534E4DCC9D404BFC490881 /* Targets Support Files */ = {
@@ -576,9 +595,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				631270FF29B9537900CC1B0F /* Localizable.strings in Resources */,
-				631271CF29B953E800CC1B0F /* Assets.xcassets in Resources */,
+				631271DA29B95DA700CC1B0F /* Localizable.strings in Resources */,
+				631271D829B95DA700CC1B0F /* Localizable.strings in Resources */,
 				6312719F29B9537900CC1B0F /* .gitkeep in Resources */,
+				631271D929B95DA700CC1B0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,11 +702,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		63126FCE29B9537800CC1B0F /* Localizable.strings */ = {
+		631271D229B95DA700CC1B0F /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				63126FCF29B9537800CC1B0F /* en */,
-				63126FD029B9537800CC1B0F /* ko */,
+				631271D329B95DA700CC1B0F /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		631271D629B95DA700CC1B0F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631271D729B95DA700CC1B0F /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
