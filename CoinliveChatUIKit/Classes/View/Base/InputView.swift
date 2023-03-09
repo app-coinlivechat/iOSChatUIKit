@@ -108,7 +108,6 @@ class InputView: UIView {
         btnSend.widthAnchor.constraint(equalToConstant: 28.0).isActive = true
         btnSend.heightAnchor.constraint(equalToConstant: 28.0).isActive = true
     }
-    
     internal func setUpData(inputViewDelegate: InputViewDelegate, isAnonymousUser: Bool) {
         self.inputViewDelegate = inputViewDelegate
         self.isAnonymousUser = isAnonymousUser
@@ -117,9 +116,15 @@ class InputView: UIView {
             self.tvInsertChat?.isUserInteractionEnabled = false
             self.tvInsertChat?.backgroundColor = .backgroundAnonymousInput
             self.lbPlaceHolder?.textColor = .labelAnonymous
+            let gesture = UITapGestureRecognizer(target: self, action: #selector(self.clickAnonymousUserClick))
+            self.addGestureRecognizer(gesture)
         }
     }
     
+    @objc func clickAnonymousUserClick() {
+        CoinliveUIKit.shared.inputViewUnknownUserProtocol?.click()
+    }
+                                                     
     @objc func actionSend() {
         if self.isAnonymousUser {
             return
@@ -136,6 +141,7 @@ class InputView: UIView {
         self.inputViewDelegate?.changeInputViewHeight(height: self.tvInsertChat?.contentSize.height ?? 0)
         self.inputViewDelegate?.sendMessage(message: message)
     }
+                                                     
     
     func blockInputText() {
         if self.isAnonymousUser {

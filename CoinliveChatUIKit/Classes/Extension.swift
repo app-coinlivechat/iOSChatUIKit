@@ -111,10 +111,10 @@ extension String {
 }
 
 extension Bundle {
-    private class FakeBundle {}
+    private class CoinliveChatUIKIt {}
     
     static var frameworkBundle: Bundle {
-        return Bundle(for: FakeBundle.self)
+        return Bundle(for: CoinliveChatUIKIt.self)
     }
 }
 

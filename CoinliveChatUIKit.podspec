@@ -15,5 +15,4 @@ Pod::Spec.new do |s|
   s.source_files = 'CoinliveChatUIKit/Classes/**/*'
   s.resource_bundle = { 'CoinliveChatUIKit' => [ 'CoinliveChatUIKit/Resource/*.{xcassets,lproj}' ] }
 
-  s.dependency 'CoinliveChatSDK'
 end
