@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CoinliveChatUIKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A UIKit in Chat solution by Coinlive'
   s.swift_version    = '5.0'
   s.description      = 'If you consider using uikit or sdk you must receive api key from Coinlive.'
@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.source_files = 'CoinliveChatUIKit/Classes/**/*'
   s.resource_bundle = { 'CoinliveChatUIKit' => [ 'CoinliveChatUIKit/Resource/*.{xcassets,lproj}' ] }
 
-  s.dependency 'CoinliveChatSDK',  '0.1.1'
+  s.dependency 'CoinliveChatSDK',  '0.1.2'
 end
